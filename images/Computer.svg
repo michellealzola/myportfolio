@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 600">
+<defs>
+<style>.cls-1,.cls-2,.cls-3{fill:#4f4840;}.cls-4{fill:#58514a;}.cls-2{font-size:18px;letter-spacing:.2em;}.cls-2,.cls-3{font-family:XanhMono-Regular, 'Xanh Mono';}.cls-5{fill:#92b2bf;}.cls-6{fill:#70625f;}.cls-3{font-size:42.6px;}.cls-7{fill:#79a0b0;}.cls-8{fill:#615a53;}
+<![CDATA[
+
+        @keyframes plant01_anim
+        {
+            0%
+            {
+                transform: rotate(0deg); 
+            }
+            
+            50%
+            {
+                transform: rotate(5deg);
+            }
+            75%
+            {
+                transform: rotate(-5deg);
+            }
+            100%
+            {
+                transform: rotate(0deg);
+            }
+        }
+        .cls-4
+        {
+            
+            transform-origin: 840.5808px 504.2743px;
+            animation: plant01_anim 2s infinite;
+        }        
+        
+        ]]>
+</style>
+</defs>
+
+
+
+<g><path class="cls-7" d="M427.86,258.81h281.76c5.2,0,9.41,4.22,9.41,9.41v211.72H418.45v-211.72c0-5.2,4.22-9.41,9.41-9.41Z"/><rect class="cls-x" x="471.83" y="230.25" width="193.83" height="278.26" rx="8.18" ry="8.18" transform="translate(938.13 -199.37) rotate(90)"/><polygon class="cls-7" points="719.04 479.95 568.75 479.95 418.45 479.95 309.6 565.26 568.75 565.26 827.89 565.26 719.04 479.95"/><polygon class="cls-5" points="357.49 548.73 424.16 496.48 713.34 496.48 780 548.73 357.49 548.73"/><path class="cls-1" d="M309.6,565.26H827.89v14.29c0,3.68-3.94,6.67-8.79,6.67H318.39c-4.86,0-8.79-2.99-8.79-6.67v-14.29Z"/></g>
+
+<g id="mouse"><path class="cls-7" d="M1026.28,589.38h-131.51c3.87-18.2,31.83-32.32,65.75-32.32s61.89,14.13,65.75,32.32Z"/>
+<rect class="cls-y" x="878.76" y="589.38" width="158.6" height="10.62" rx="5.31" ry="5.31"/>
+</g>
+
+<rect class="cls-4" x="856.23" y="338.01" width="11.42" height="169.01" rx="5.71" ry="5.71" transform="translate(134.83 -204.2) rotate(14.65)"/>
+
+<rect class="cls-6" x="779.4" y="484.73" width="124.02" height="30.18" rx="14.33" ry="14.33"/>
+
+<g><path class="cls-1" d="M855.01,528.11l43.59-34.17c1.59-1.25,3.56-1.93,5.58-1.93h282.94c2.02,0,3.99,.68,5.58,1.93l43.59,34.17c6.76,5.3,3.02,16.16-5.58,16.16h-370.12c-8.59,0-12.34-10.86-5.58-16.16Z"/><rect class="cls-8" x="854.77" y="530.7" width="381.33" height="11.82" rx="5.91" ry="5.91"/>
+</g>
+</svg>

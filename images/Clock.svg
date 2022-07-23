@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 600">
+<defs>
+<style>.cls-1{fill:#ae9e87;}.cls-2{fill:#7e5e61;}.cls-3{fill:#b6a893;}.cls-4{fill:#8b6e71;}.cls-5{fill:#e1dad2;}
+<![CDATA[
+
+        @keyframes clock_anim
+        {
+            0%
+            {
+                transform: rotate(0deg);
+            }
+
+            100%
+            {
+                transform: rotate(360deg);
+            }
+        }
+
+        #smallhand
+        {
+            
+            transform-origin: 199.6792px 485.1875px;
+            animation: clock_anim 240s infinite linear;
+        }
+
+        #bighand
+        {
+            
+            transform-origin: 199.6792px 485.1875px;
+            animation: clock_anim 30s infinite linear;
+        }
+        
+        ]]>
+</style>
+</defs>
+
+<g ><rect class="cls-2" x="149.85" y="519.52" width="99.67" height="56.02" rx="7.16" ry="7.16"/>
+    <g><circle class="cls-4" cx="199.68" cy="484.82" r="73.45"/><circle class="cls-5" cx="199.68" cy="484.82" r="56.85"/>
+    </g>
+</g>
+
+<circle class="cls-3" cx="199.68" cy="484.82" r="13.3"/>
+
+<g id="bighand"><rect class="cls-1" x="195.83" y="484.82" width="7.7" height="66.65" rx="3.48" ry="3.48"/><circle class="cls-3" cx="199.68" cy="484.82" r="13.3"/></g>
+
+<g  id="smallhand"><rect class="cls-1" x="218.98" y="460.22" width="7.7" height="46.17" rx="2.9" ry="2.9" transform="translate(-244.92 737.16) rotate(-93.74)"/><circle class="cls-3" cx="199.68" cy="484.82" r="13.3"/></g>
+
+</svg>

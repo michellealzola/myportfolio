@@ -1,0 +1,313 @@
+body
+{    
+    background-image: url("../images/Pattern04.png");
+    background-repeat: repeat;
+    color: rgb(48, 46, 47);
+    font-family: 'Xanh Mono', monospace;
+    text-align: justify;
+    
+}
+
+header
+{
+    margin-bottom: 4%;
+    display: inline;    
+    
+}
+
+h1
+{
+    font-family: 'Fredericka the Great', cursive;    
+}
+
+
+.container
+{
+    padding: 0; 
+    border-radius: 25px;    
+    position: relative; 
+       
+}
+
+.container #computer
+{
+    width: 100%;     
+    position: absolute;   
+    
+}
+.container #clock
+{
+    width: 100%;     
+    position: absolute;      
+    
+}
+
+.container #plant01
+{
+    width: 100%;     
+    position: absolute;  
+    z-index: -2;
+}
+
+.container #plant02
+{
+    width: 100%;     
+    position: absolute;   
+    z-index: -3;
+    
+}
+
+.container #window
+{
+    width: 100%;     
+    position: absolute;   
+    z-index: -4;
+    
+}
+
+.container #monitor
+{
+    width: 100%;     
+    position: absolute;   
+    z-index: 1;
+    
+}
+.container #coffee
+{
+    width: 100%;     
+    position: absolute;   
+    z-index: 3;
+    
+}
+
+header img
+{
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+header h1
+{
+    display: inline-block;
+}
+
+ul
+{
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(48, 46, 47);
+    font-size: 300%;
+    display: inline-block; 
+    list-style-type: none;
+    margin-top: 1%;
+    width: 75%;
+}
+
+li
+{
+    display: inline;
+    padding-right: 3%;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(48, 46, 47);
+}
+
+a:hover
+{
+    color: rgb(88, 136, 156);
+}
+
+a:active
+{
+    color: rgb(201, 56, 103);
+}
+
+.intro
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: 'Xanh Mono', monospace;    
+}
+.intro h1
+{
+   font-size: 250%;
+   color: rgb(79, 72, 64)  ;  
+   font-family: 'Xanh Mono', monospace;
+   
+}
+
+.intro img
+{
+    width: 25%;
+    float: left;
+    margin-right: 3%;
+    border-radius: 15px;
+    /* box-shadow: 1px 1px 2px rgb(136, 120, 105); */
+    
+}
+
+.intro p
+{
+     font-family: 'Xanh Mono', monospace;
+     font-size: 150%;
+    
+}
+
+.skills
+{   
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: left;
+    
+    
+}
+
+.skills h1
+{
+    font-size: 2rem;
+    color: white  ;
+    /* background-color: rgb(88, 136, 156)   ;   */
+    font-family: 'Xanh Mono', monospace;
+    padding: 1%;
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat;
+    
+}
+
+.skills img
+{
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 15px;
+    /* box-shadow: 1px 1px 2px rgb(136, 120, 105); */
+    margin-bottom: 0;
+}
+
+.experience
+{   
+    width: 80%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: left;
+    
+}
+
+.experience h1
+{
+    font-size: 2rem;
+    color: white  ;
+    /* background-color: rgb(88, 136, 156)   ;   */
+    font-family: 'Xanh Mono', monospace;
+    padding: 1%; 
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat;  
+    
+}
+
+.work
+{
+    margin-top: 2%;
+}
+
+.work h2
+{
+    font-size: 180%;
+    margin-bottom: 0;
+    padding-bottom: 0;    
+    /* font-family: 'Fredericka the Great', cursive; */
+    color: rgb(80, 93, 99); 
+    font-weight: 600;   
+}
+
+.work h3
+{
+    font-size: 130%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-weight: 200;
+}
+.work h4
+{
+    font-size: 110%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.education
+{
+    width: 80%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: left;
+}
+
+.education h1
+{
+    font-size: 2rem;
+    color: white  ;
+    /* background-color: rgb(88, 136, 156)   ;   */
+    font-family: 'Xanh Mono', monospace;
+    padding: 1%; 
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat; 
+}
+
+
+
+#footer img
+{
+    margin: 0;
+    margin-top: 5%;
+    padding: 0;
+    width: 100%;
+}
+
+.works
+{
+    width: 80%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: left;
+}
+
+.works h1
+{
+    font-size: 2rem;
+    color: white  ;    
+    font-family: 'Xanh Mono', monospace;
+    padding: 1%; 
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat; 
+}
+
+figure 
+{
+    text-align: center;    
+    width: 25%;
+    display: inline-block;
+    
+}
+figure img
+{
+    display: inline;
+    width: 100%;
+}
+
+figure figcaption
+{
+    font-size: 150%;
+}
